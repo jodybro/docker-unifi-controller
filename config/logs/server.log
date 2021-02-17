@@ -1,0 +1,286 @@
+[2020-02-13T01:48:06,626] <launcher> WARN  system - reload system.properties failed: file not found
+[2020-02-13T01:48:06,632] <launcher> WARN  system - reload system.properties.bk failed: file not found
+[2020-02-13T01:48:06,635] <launcher> INFO  system - *** Running for the first time, creating identity ***
+[2020-02-13T01:48:06,636] <launcher> INFO  system - UUID: b4e058cc-dc63-49be-96d5-49b6e7774b5b
+[2020-02-13T01:48:06,637] <launcher> WARN  system - reload system.properties failed: file not found
+[2020-02-13T01:48:06,638] <launcher> WARN  system - reload system.properties.bk failed: file not found
+[2020-02-13T01:48:06,662] <launcher> INFO  system - Reporter UUID:
+[2020-02-13T01:48:10,675] <launcher> WARN  system - Failed to move/copy file /usr/lib/unifi/data/system.properties.tmp to /usr/lib/unifi/data/system.properties.
+java.nio.file.FileSystemException: /usr/lib/unifi/data/system.properties: Device or resource busy
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:91) ~[?:1.8.0_242]
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:102) ~[?:1.8.0_242]
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:107) ~[?:1.8.0_242]
+	at sun.nio.fs.UnixCopyFile.move(UnixCopyFile.java:447) ~[?:1.8.0_242]
+	at sun.nio.fs.UnixFileSystemProvider.move(UnixFileSystemProvider.java:262) ~[?:1.8.0_242]
+	at java.nio.file.Files.move(Files.java:1395) ~[?:1.8.0_242]
+	at com.ubnt.service.super.o00000(Unknown Source) [ace.jar:?]
+	at com.ubnt.service.super.String(Unknown Source) [ace.jar:?]
+	at com.ubnt.service.C.thissuper.<clinit>(Unknown Source) [ace.jar:?]
+	at com.ubnt.ace.C.Ó00000(Unknown Source) [ace.jar:?]
+	at com.ubnt.ace.C.<init>(Unknown Source) [ace.jar:?]
+	at com.ubnt.ace.Launcher.main(Unknown Source) [ace.jar:?]
+[2020-02-13T01:48:14,696] <launcher> WARN  system - Failed to move/copy file /usr/lib/unifi/data/system.properties.tmp to /usr/lib/unifi/data/system.properties.
+java.nio.file.FileSystemException: /usr/lib/unifi/data/system.properties: Device or resource busy
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:91) ~[?:1.8.0_242]
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:102) ~[?:1.8.0_242]
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:107) ~[?:1.8.0_242]
+	at sun.nio.fs.UnixCopyFile.move(UnixCopyFile.java:447) ~[?:1.8.0_242]
+	at sun.nio.fs.UnixFileSystemProvider.move(UnixFileSystemProvider.java:262) ~[?:1.8.0_242]
+	at java.nio.file.Files.move(Files.java:1395) ~[?:1.8.0_242]
+	at com.ubnt.service.super.o00000(Unknown Source) [ace.jar:?]
+	at com.ubnt.service.super.String(Unknown Source) [ace.jar:?]
+	at com.ubnt.service.C.thissuper.<clinit>(Unknown Source) [ace.jar:?]
+	at com.ubnt.ace.C.Ó00000(Unknown Source) [ace.jar:?]
+	at com.ubnt.ace.C.<init>(Unknown Source) [ace.jar:?]
+	at com.ubnt.ace.Launcher.main(Unknown Source) [ace.jar:?]
+[2020-02-13T01:48:16,562] <localhost-startStop-1> INFO  system - ======================================================================
+[2020-02-13T01:48:16,567] <localhost-startStop-1> INFO  system - UniFi 5.12.35 (build atag_5.12.35_12979 - release/release) is started
+[2020-02-13T01:48:16,568] <localhost-startStop-1> INFO  system - ======================================================================
+[2020-02-13T01:48:16,569] <localhost-startStop-1> INFO  system - BASE dir:/usr/lib/unifi
+[2020-02-13T01:48:16,607] <localhost-startStop-1> INFO  system - Current System IP: 172.18.0.2
+[2020-02-13T01:48:16,608] <localhost-startStop-1> INFO  system - Hostname: d7de0eb927d8
+[2020-02-13T01:48:17,029] <localhost-startStop-1> INFO  db     - waiting for db connection...
+[2020-02-13T01:48:18,282] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:48:22,342] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:48:26,402] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:48:30,478] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:48:34,536] <localhost-startStop-1> INFO  db     - Connecting to mongodb://localhost:27117
+[2020-02-13T01:48:34,552] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:48:38,610] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:48:42,672] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:48:46,731] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:48:50,788] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:48:54,853] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:48:58,931] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:49:03,001] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:49:07,074] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:49:11,145] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:49:15,214] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:49:19,284] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:49:23,342] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:49:27,411] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:49:31,474] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:49:35,537] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:49:39,605] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:49:43,668] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:49:47,727] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:49:51,797] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:49:55,861] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:49:59,934] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:50:04,019] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:50:08,102] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:50:12,172] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:50:16,277] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:50:20,374] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:50:24,437] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:50:28,501] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:50:32,562] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:50:36,623] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:50:40,687] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:50:44,747] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:50:48,810] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:50:52,880] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:50:56,947] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:51:01,007] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:51:05,079] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:51:09,138] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:51:13,216] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:51:17,275] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:51:21,329] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:51:25,391] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:51:29,468] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:51:33,540] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:51:37,599] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:51:41,671] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:51:45,727] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:51:49,792] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:51:53,856] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:51:57,929] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:52:01,997] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:52:06,059] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:52:10,119] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:52:14,178] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:52:18,247] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:52:22,315] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:52:26,375] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:52:30,446] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:52:34,514] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:52:38,580] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:52:42,634] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:52:46,708] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:52:50,777] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:52:54,855] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:52:58,913] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:53:02,976] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:53:07,036] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:53:11,109] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:53:15,185] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:53:19,246] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:53:23,317] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:53:27,382] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:53:31,442] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:53:35,502] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:53:39,568] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:53:43,636] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:53:47,691] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:53:51,764] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:53:55,830] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:53:59,952] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:54:04,014] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:54:08,084] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:54:12,145] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:54:16,209] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:54:20,271] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:54:24,339] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:54:28,398] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:54:32,474] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:54:36,538] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:54:40,602] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:54:44,663] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:54:48,735] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:54:52,801] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:54:56,864] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:55:00,923] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:55:04,984] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:55:09,070] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:55:13,145] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:55:17,210] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:55:21,273] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:55:25,337] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:55:29,395] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:55:33,460] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:55:37,538] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:55:41,595] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:55:45,653] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:55:49,709] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:55:53,792] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:55:57,850] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:56:01,912] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:56:05,973] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:56:10,031] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:56:14,095] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:56:18,187] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:56:22,259] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:56:26,329] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:56:30,393] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:56:34,456] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:56:38,528] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:56:42,600] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:56:46,852] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:56:50,913] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:56:54,986] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:56:59,052] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:57:03,121] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:57:07,192] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:57:11,251] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:57:15,317] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:57:19,379] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:57:23,436] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:57:27,500] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:57:31,561] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:57:35,630] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:57:39,709] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:57:43,779] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:57:47,850] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:57:51,918] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:57:55,989] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:58:00,052] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:58:04,138] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:58:08,201] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:58:12,266] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:58:16,338] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:58:20,403] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:58:24,468] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:58:28,551] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:58:32,606] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:58:36,668] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:58:40,725] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:58:44,793] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:58:48,865] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:58:52,932] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:58:57,001] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:59:01,075] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:59:05,146] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:59:09,210] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:59:13,273] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:59:17,336] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:59:21,403] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:59:25,466] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:59:29,534] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:59:33,599] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:59:37,666] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:59:41,719] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:59:45,778] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:59:49,836] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:59:53,909] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T01:59:57,976] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T02:00:02,040] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T02:00:06,101] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T02:00:10,165] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T02:00:14,226] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T02:00:18,282] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T02:00:22,338] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T02:00:26,394] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T02:00:30,459] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T02:00:34,520] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T02:00:38,580] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T02:00:42,654] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T02:00:46,730] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T02:00:50,798] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T02:00:54,867] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T02:00:58,928] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T02:01:02,993] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T02:01:07,056] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T02:01:11,119] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T02:01:15,197] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T02:01:19,254] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T02:01:23,325] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T02:01:27,389] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T02:01:31,452] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T02:01:35,523] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T02:01:39,581] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T02:01:43,645] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T02:01:47,704] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T02:01:51,766] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T02:01:55,832] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T02:01:59,896] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T02:02:03,965] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T02:02:08,036] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T02:02:12,098] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T02:02:16,166] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T02:02:20,225] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T02:02:24,287] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T02:02:28,349] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T02:02:32,418] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T02:02:36,472] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T02:02:40,534] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T02:02:44,596] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T02:02:48,657] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T02:02:52,715] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T02:02:56,786] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T02:03:00,854] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T02:03:04,916] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T02:03:08,999] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T02:03:13,052] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T02:03:17,108] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T02:03:21,161] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T02:03:25,216] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T02:03:29,305] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T02:03:33,363] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T02:03:37,418] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T02:03:41,481] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T02:03:45,535] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T02:03:49,591] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T02:03:53,658] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T02:03:57,729] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T02:04:01,786] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T02:04:05,847] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T02:04:09,914] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T02:04:13,971] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T02:04:18,032] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T02:04:22,090] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T02:04:26,159] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T02:04:30,245] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T02:04:34,310] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T02:04:38,372] <db-server> INFO  db     - DbServer stopped
+[2020-02-13T02:04:42,428] <db-server> INFO  db     - DbServer stopped
